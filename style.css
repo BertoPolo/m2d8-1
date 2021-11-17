@@ -1,0 +1,28 @@
+ul {
+  list-style: none;
+  font-size: small;
+}
+.table {
+  width: 90vw !important;
+}
+
+table > tbody > tr:nth-child(2) {
+  background-color: khaki;
+}
+
+body > section > div > table {
+  border: 5px !important;
+  border-radius: 5px !important;
+  border-collapse: collapse !important;
+}
+
+body
+  > section
+  > div
+  > table
+  > tbody
+  > tr:nth-child(1)
+  > td.bg-success.w-50.border-right.text-center.align-middle {
+  border-right: black;
+  border-right: 10px;
+}
